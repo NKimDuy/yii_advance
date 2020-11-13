@@ -12,9 +12,9 @@ $model = new SinhVien();
 	
 	
 	
-	<?= Html::beginForm(['order/update', 'id' => 'duy'], 'post') ?>
+	<?= Html::beginForm() ?>
 	
-	<?= Html::input('text', 'username', 'duy', ['class' => 'teo']) ?>
+	<?= Html::input('text', 'username','', ['class' => 'teo']) ?>
 	<?= Html::submitButton('Submit', ['class' => 'submit']) ?>
 	
 	<?= Html::endForm() ?>
@@ -28,7 +28,7 @@ $model = new SinhVien();
 			</tr>
 		</thead>
 		<tbody>
-			<?php
+  			<?php
 				foreach($nhieuSinhVien as $sinhVien)
 				{
 			?>
