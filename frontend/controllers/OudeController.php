@@ -8,8 +8,10 @@ use frontend\models\SinhVien;
 
 class OudeController extends Controller
 {
+	public $layout = 'demo1';
     public function actionIndex()
     {
+		
 		$mssv = \Yii::$app->request->post('username', '');
 		
 		$nhieuSinhVien = SinhVien::find()->where(['mssv' => $mssv])->all();

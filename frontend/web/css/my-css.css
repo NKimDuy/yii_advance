@@ -1,0 +1,17 @@
+/* chinh mau nen cho thanh header */
+.header {
+	background-color: #006799;
+}
+
+/* thiet lap css cho phan tim kiem thong tin */
+.find_mssv {
+	margin-top: 22px;
+	background-color: #f0f0f0;
+}
+/* thiet lap css cho dong chu " tra cuu thong tin tot nghiep " */
+.full-screen {
+	height: 56px;
+	margin-left: -14px;
+    margin-right: -14px;
+	padding-top: 16px;
+}
