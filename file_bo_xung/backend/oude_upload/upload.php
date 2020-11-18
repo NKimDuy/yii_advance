@@ -70,7 +70,7 @@
 							<div id="upload" >
 							</div>
 						</div>
-					<div>
+					</div>
 					
 				</div>
 			</div>

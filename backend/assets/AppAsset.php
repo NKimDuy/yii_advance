@@ -18,8 +18,9 @@ class AppAsset extends AssetBundle
 		'css/fonts/fontawesome/css/fontawesome-all.css',
     ];
     public $js = [
-		'js/main-js.js',
+		'js/upload.js',
 		'js/delete-button-create-js.js',
+		'js/sheetjs/dist/xlsx.full.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',

@@ -109,12 +109,15 @@ AppAsset::register($this);
         <!-- end left sidebar -->
         <!-- ============================================================== -->
         <!-- ============================================================== -->
-        <!-- wrapper  -->
+        <!-- wrapper  --> 
         <!-- ============================================================== -->
 		<div class="dashboard-wrapper">
 			<div class="dashboard-ecommerce">
-				<div class="container-fluid dashboard-content ">
+				<div class="container-fluid dashboard-content " style="overflow-x:auto;">
 					
+					<div class="row">
+						<?= $content ?>
+					</div>
 					
 				</div>
 			</div>
@@ -135,16 +138,6 @@ AppAsset::register($this);
 			</div>
 		</div>
 	</div>
-
-
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= Alert::widget() ?>
-        <?= $content ?>
-    </div>
-</div>
 
 
 
