@@ -1,4 +1,4 @@
-/*
+
 function addslashes(str) { // có nhiệm vụ hiểu dấu nháy đơn trong chuỗi
 	return (str + '').replace(/[\\"']/g, '\\$&').replace(/\u0000/g, '\\0');
 }
@@ -11,7 +11,7 @@ function checkAll() { // chọn hoặc bỏ chọn tất cả các checkbox
 		$("#upload table input:checkbox:not(#chkAll)").prop("checked",false);
 	}
 }
-*/
+
 
 $(document).ready(() =>{
 	
@@ -92,5 +92,28 @@ $(document).ready(() =>{
 		
 	});
 	
+	$("#btnAdd").click(() => {
+		$("#upload table input:checked:not(#chkAll)").each(function(index, item) {
+			$.post({
+				url:'<?php echo Url::to(["oude/tinhTrangSinhVien"]); ?>',
+				data: {
+					"table_name": $("#txtTabName").val(),
+					"data": value_temp
+				},
+				dataType: "json",
+				error: function() {
+					addRowSuccessfully = false;
+				},
+				success: function() {
+				
+					//addRowSuccessfully = true;
+					//rowsAddToSql += 1;
+					//alert(rowsAddToSql);
+					//if( (rowsAddToSql == rowsGetByExcel - 1) || (rowsAddToSql == rowChecked) )
+					//	alert("Đã thêm " + rowsAddToSql + " dòng được đánh dấu vào cơ sở dữ liệu");
+				}
+			});
+		};
+	};
 	
 });

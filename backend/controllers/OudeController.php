@@ -6,6 +6,9 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
+use backend\models\UploadForm;
+use backend\models\TinhTrangSinhVien;
+use yii\web\UploadedFile;
 
 /**
  * Site controller
@@ -23,6 +26,24 @@ class OudeController extends Controller
 	
 	public function actionUpload()
 	{
-		return $this->render('upload');
+		$model = new UploadForm();
+		   
+		if (Yii::$app->request->isPost)
+		{
+			$model->uploadFile = UploadedFile::getInstance($model, 'uploadFile');
+			
+			if($model->loadFile()) 
+			{
+				return;
+			}
+		}
+		
+		return $this->render('upload', ['model' => $model]);
+	}
+	
+	public function addToTinhTrangSinhVien()
+	{
+		sinhVien = new TinhTrangSinhVien();
+		
 	}
 }

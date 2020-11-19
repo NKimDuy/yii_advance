@@ -24,11 +24,23 @@ CREATE TABLE IF NOT EXISTS `ho_so_sinh_vien` (
   `id_dan_toc` int DEFAULT NULL COMMENT 'id dân tộc',
   `id_noi_sinh` int DEFAULT NULL COMMENT 'id nơi sinh',
   `id_quoc_tich` int DEFAULT NULL COMMENT 'id quốc tịch',
-  `id_dvlk` int DEFAULT NULL COMMENT 'id đơn vị liên kết',
-  `id_nganh` int DEFAULT NULL COMMENT 'id ngành',
+  `ma_dvlk` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'id đơn vị liên kết',
+  `ma_nganh` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'id ngành',
   `id_htdt` int DEFAULT NULL COMMENT 'id hình thức đào tạo',
   PRIMARY KEY (`mssv`),
-  CONSTRAINT `ho_so_sinh_vien_ibfk_1` FOREIGN KEY (`mssv`) REFERENCES `sinh_vien` (`mssv`)
+  KEY `ho_so_sinh_vien_ibfk_2_idx` (`id_dan_toc`),
+  KEY `ho_so_sinh_vien_ibfk_3_idx` (`id_noi_sinh`),
+  KEY `ho_so_sinh_vien_ibfk_4_idx` (`id_quoc_tich`),
+  KEY `ho_so_sinh_vien_ibfk_5_idx` (`id_htdt`),
+  KEY `ho_so_sinh_vien_ibfk_6` (`ma_nganh`),
+  KEY `ho_so_sinh_vien_ibfk_7` (`ma_dvlk`),
+  CONSTRAINT `ho_so_sinh_vien_ibfk_1` FOREIGN KEY (`mssv`) REFERENCES `sinh_vien` (`mssv`),
+  CONSTRAINT `ho_so_sinh_vien_ibfk_2` FOREIGN KEY (`id_dan_toc`) REFERENCES `tb_dan_toc` (`id`),
+  CONSTRAINT `ho_so_sinh_vien_ibfk_3` FOREIGN KEY (`id_noi_sinh`) REFERENCES `tb_tinh_thanh` (`id`),
+  CONSTRAINT `ho_so_sinh_vien_ibfk_4` FOREIGN KEY (`id_quoc_tich`) REFERENCES `tb_quoc_tich` (`id`),
+  CONSTRAINT `ho_so_sinh_vien_ibfk_5` FOREIGN KEY (`id_htdt`) REFERENCES `tb_ht_dao_tao` (`id`),
+  CONSTRAINT `ho_so_sinh_vien_ibfk_6` FOREIGN KEY (`ma_nganh`) REFERENCES `tb_nganh` (`ma_nganh`),
+  CONSTRAINT `ho_so_sinh_vien_ibfk_7` FOREIGN KEY (`ma_dvlk`) REFERENCES `tb_don_vi_lk` (`ma_dvlk`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- Dumping data for table new_oude.ho_so_sinh_vien: ~0 rows (approximately)
