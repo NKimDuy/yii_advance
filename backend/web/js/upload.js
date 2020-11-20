@@ -16,13 +16,7 @@ function checkAll() { // chọn hoặc bỏ chọn tất cả các checkbox
 $(document).ready(() =>{
 	
 	var rowsGetByExcel = 0; // các dòng hiện có trong excel
-	var flagTitle = false; // cờ dùng để kiểm tra các cột của excel có đúng định dạng hay không
-	var checkTitle = ["stt", "ma_dvlk", "ten_dvlk", "mssv", "ho", "ten", "ngay_sinh", "noi_sinh", "gioi_tinh", "dan_toc"
-					, "quoc_tich", "nganh_dt", "giay_ks", "bang_cap", "hinh", "phieu_dkxcb", "ct_dt", "hinh_thuc_dt", "diem"
-					, "xep_loai", "dk_tn", "ho_temp", "ten_temp", "temp", "hk", "chi_tiet_hk"];
 	
-	var title = []; // lưu thông tin tiêu đề các cột
-	var record = ""; // lưu thông tin các record
 	var wb = null; // lưu giữ thông tin workbook nào đang được tương tác
 	var sheetName = null; // lấy worksheet tương ứng với workbook
 	var range = null; // lấy tất cả các ô có giá trị trong sheet
@@ -37,39 +31,14 @@ $(document).ready(() =>{
 			range = XLSX.utils.decode_range(sheetName['!ref']); // !ref có ý nghĩa là chỉ chọn vùng nào có tồn tại dữ liệu
 			var htmlstr = XLSX.write(wb,{sheet:"Sheet1", type:'string', bookType:'html'});
 			
-			var R = 0; // chỉ mục của dòng đầu tiên để lấy các tiêu đề cột
-			for(var C = range.s.c; C <= range.e.c; ++C) {
-				var cell_address = {c:C, r:R}; // lấy chỉ mục của ô
-				var cell_ref = XLSX.utils.encode_cell(cell_address); // phân giải ô 
-				var desired_cell = sheetName[cell_ref]; // lấy giá trị của ô
-				title.push(desired_cell.v); // thêm các tiêu đề cột vào mảng title
-			}
+		
 			
 			for(var R = range.s.r; R <= range.e.r; ++R) {
 				rowsGetByExcel += 1;
 			}
 			alert(rowsGetByExcel - 1); // hiện các dòng có trong excel
 			
-			/*
-			if (title.length != checkTitle.length) { // kiểm tra mảng chứa cột tiêu đề có khớp với yêu cầu hay không
-				$("#notification").text("file excel nhập vào không hợp lệ");
-			}
-			else {
-				for (var i = 0 ; i < title.length ; i++) {
-					if (title[i] != checkTitle[i]) {
-						$("#notification").text("file excel nhập vào không hợp lệ");
-						flagTitle = false; 
-						break;
-						// nếu bất kì cột nào không khớp, cờ vẫn sẽ duy trì false , và thoát ra ngoài
-						// ngay lập tức
-					}
-					else {
-						$("#notification").text("");
-						flagTitle = true;
-					}
-				}
-			}
-			*/
+		
 			
 			//if (flagTitle) { // nếu file excel hợp lệ
 				$('#upload')[0].innerHTML += htmlstr;
@@ -91,21 +60,41 @@ $(document).ready(() =>{
 		}
 		
 	});
-	
+	//  '<?php echo Yii::app()->createUrl("oude/addToTinhTrangSinhVien"); ?>'
+	//  
 	$("#btnAdd").click(() => {
+		
 		$("#upload table input:checked:not(#chkAll)").each(function(index, item) {
-			$.post({
-				url:'<?php echo Url::to(["oude/tinhTrangSinhVien"]); ?>',
+			
+			var R = $(item).attr("id"); // lấy dòng tương ứng với ID của checkbox
+							
+			var value_temp = [];
+			try {
+				for(var C = range.s.c; C <= range.e.c; ++C) {
+					var cell_address = {c:C, r:parseInt(R)};
+					var cell_ref = XLSX.utils.encode_cell(cell_address);
+					
+					var desired_cell = sheetName[cell_ref];
+					if (desired_cell === undefined)
+						desired_cell = "";
+					value_temp.push(addslashes(desired_cell.v));
+				}
+			}
+			catch(e) {
+				console.log(e.message);
+			}
+			
+			$.post({ 
+				url: 'index.php?r=oude/add-to-tinh-trang-sinh-vien',//'<?php echo Url::to(["oude/add-to-tinh-trang-sinh-vien"]); ?>', // ????????????????????????????????????
 				data: {
-					"table_name": $("#txtTabName").val(),
 					"data": value_temp
 				},
 				dataType: "json",
 				error: function() {
 					addRowSuccessfully = false;
 				},
-				success: function() {
-				
+				success: function(data) {
+					alert(data.success);
 					//addRowSuccessfully = true;
 					//rowsAddToSql += 1;
 					//alert(rowsAddToSql);
@@ -113,7 +102,8 @@ $(document).ready(() =>{
 					//	alert("Đã thêm " + rowsAddToSql + " dòng được đánh dấu vào cơ sở dữ liệu");
 				}
 			});
-		};
-	};
+			alert(value_temp[3]);
+		});
+	});
 	
 });

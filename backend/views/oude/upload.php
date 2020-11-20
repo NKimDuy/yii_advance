@@ -4,7 +4,7 @@ use yii\widgets\ActiveForm;
 use yii\captcha\Captcha;
 use backend\models\Upload;
 use yii\helpers\Url;
-
+use 
 ?>
 
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
@@ -12,7 +12,7 @@ use yii\helpers\Url;
     <?= $form->field($model, 'uploadFile')->fileInput(['id' => 'input-excel']) ?>
 
     <!--<button>Submit</button>-->
-	<?= Html::submitButton('Submit', ['class' => 'btn btn-primary btn-lg btn-block']) ?>
+	<?= Html::submitButton('Submit', ['id' => 'btnAdd', 'class' => 'btn btn-primary btn-lg btn-block']) ?>
 
 <?php ActiveForm::end() ?>
 

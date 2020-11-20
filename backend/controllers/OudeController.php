@@ -41,9 +41,25 @@ class OudeController extends Controller
 		return $this->render('upload', ['model' => $model]);
 	}
 	
-	public function addToTinhTrangSinhVien()
+	public function actionAddToTinhTrangSinhVien()
 	{
-		sinhVien = new TinhTrangSinhVien();
+		$sinhVien = new TinhTrangSinhVien();
+		if (Yii::$app->request->isAjax) 
+		{
+			$data = $_POST['data'];
+		}
 		
+		$sinhVien->mssv = "1651010030";
+		$sinhVien->giay_ks = $data[3];
+		$sinhVien->bang_cap = $data[3];
+		$sinhVien->hinh = $data[3];
+		$sinhVien->phieu_dkxcb = $data[3];
+		$sinhVien->ct_dt = $data[3];
+		
+		$sinhVien->save();
+		
+		return [
+			'success' => 'success',
+		];
 	}
 }
