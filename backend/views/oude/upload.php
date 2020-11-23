@@ -4,7 +4,8 @@ use yii\widgets\ActiveForm;
 use yii\captcha\Captcha;
 use backend\models\Upload;
 use yii\helpers\Url;
-use 
+use backend\assets\AppAsset;
+AppAsset::register($this);
 ?>
 
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>

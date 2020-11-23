@@ -61,9 +61,10 @@ $(document).ready(() =>{
 		
 	});
 	//  '<?php echo Yii::app()->createUrl("oude/addToTinhTrangSinhVien"); ?>'
-	//  
-	$("#btnAdd").click(() => {
-		
+	//  'index.php?r=oude/add-to-tinh-trang-sinh-vien'
+	//   '/oude/add-to-new-oude'
+	$("#btnAdd").click((ev) => {
+		//ev.preventDefault();
 		$("#upload table input:checked:not(#chkAll)").each(function(index, item) {
 			
 			var R = $(item).attr("id"); // lấy dòng tương ứng với ID của checkbox
@@ -85,7 +86,7 @@ $(document).ready(() =>{
 			}
 			
 			$.post({ 
-				url: 'index.php?r=oude/add-to-tinh-trang-sinh-vien',//'<?php echo Url::to(["oude/add-to-tinh-trang-sinh-vien"]); ?>', // ????????????????????????????????????
+				url: 'index.php?r=oude/add-to-new-oude',//'<?php echo Url::to(["oude/add-to-tinh-trang-sinh-vien"]); ?>', // ????????????????????????????????????
 				data: {
 					"data": value_temp
 				},
@@ -94,7 +95,8 @@ $(document).ready(() =>{
 					addRowSuccessfully = false;
 				},
 				success: function(data) {
-					alert(data.success);
+					alert('abc');
+					//alert(data.success);
 					//addRowSuccessfully = true;
 					//rowsAddToSql += 1;
 					//alert(rowsAddToSql);
