@@ -29,7 +29,7 @@ $(document).ready(() =>{
 			// lấy giá trị các ô trong excel
 			sheetName = wb.Sheets["Sheet1"]; // lấy sheet có tên là Sheet1
 			range = XLSX.utils.decode_range(sheetName['!ref']); // !ref có ý nghĩa là chỉ chọn vùng nào có tồn tại dữ liệu
-			var htmlstr = XLSX.write(wb,{sheet:"Sheet1", type:'string', bookType:'html'});
+			var htmlstr = XLSX.write(wb,{sheet:"Sheet1", type:'string', bookType:'html'});  // dữ liêu từ excel đã được lấy lên, sẵn sàng để hiển thị lên
 			
 		
 			
@@ -43,8 +43,8 @@ $(document).ready(() =>{
 			//if (flagTitle) { // nếu file excel hợp lệ
 				$('#upload')[0].innerHTML += htmlstr;
 				$("#upload > table").addClass("table table-hover");
-				$("#upload table tr:first-child").prepend("<td><input id='chkAll' type='checkbox'  onclick='checkAll()' /></td>");
-				$("#upload table tr").not("tr:first-child").prepend("<td><input type='checkbox' /></td>");
+				$("#upload table tr:first-child").prepend("<td><input id='chkAll' type='checkbox'  onclick='checkAll()' /></td>"); // thêm checkbox để check tất cả các dòng
+				$("#upload table tr").not("tr:first-child").prepend("<td><input type='checkbox' /></td>"); // thêm checkbox để biểt dòng nào được chọn để thêm
 				$("#upload table tr:first-child").css("font-weight","bold");
 				//$("#upload table tr").prepend("<td><input type='checkbox' /></td>");
 			//}
@@ -86,7 +86,7 @@ $(document).ready(() =>{
 			}
 			
 			$.post({ 
-				url: 'index.php?r=oude/add-to-new-oude',//'<?php echo Url::to(["oude/add-to-tinh-trang-sinh-vien"]); ?>', // ????????????????????????????????????
+				url: 'index.php?r=oude/add',//'<?php echo Url::to(["oude/add-to-tinh-trang-sinh-vien"]); ?>', // ????????????????????????????????????
 				data: {
 					"data": value_temp
 				},
