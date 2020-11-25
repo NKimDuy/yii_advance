@@ -21486,3 +21486,3374 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1606200094.5247
     'REQUEST_TIME' => 1606200094
 ]
+2020-11-25 09:20:53 [::1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 09:20:49 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-a106359a-d3c6-49ab-8691-5c46ef66cb5d'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52911'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606270847.748
+    'REQUEST_TIME' => 1606270847
+]
+2020-11-25 09:21:23 [::1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Response content must not be an array. in D:\website\web2\vendor\yiisoft\yii2\web\Response.php:1083
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\web\Response.php(337): yii\web\Response->prepare()
+#1 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2020-11-25 09:21:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = [
+    'data' => [
+        0 => '1'
+        1 => 'ou'
+        2 => 'trường đại học Mở thành phố Hồ Chí Minh'
+        3 => '1651010030'
+        4 => 'Nguyễn Kim'
+        5 => 'Duy'
+        6 => '27/02/1998'
+        7 => 'Tp.HCM'
+        8 => 'Nam'
+        9 => 'Kinh'
+        10 => 'Việt Nam'
+        11 => 'Khoa học máy tính'
+        12 => 'hợp lệ'
+        13 => 'hợp lệ'
+        14 => 'hợp lệ'
+        15 => 'hợp lệ'
+        16 => 'hoàn thành'
+        17 => 'chính quy'
+        18 => '8.5'
+        19 => 'Giỏi'
+        20 => 'Đủ điều kiện'
+        21 => 'Nguyen Kim'
+        22 => 'Duy'
+        23 => 'Nguyen Kim Duy'
+        24 => 'tn_193'
+        25 => 'học kì 1 - năm 2020'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'ee145b87b04bc4dc65975e6273c6d703b2764af19444b07e65764830fabc9b60a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qTJlYcOiEQr7d5xvIjtfxs0DQrLzDAOa\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-a106359a-d3c6-49ab-8691-5c46ef66cb5d'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52911'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '783'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'cykql8Lg51HPjqHbsKvpXhG83YXI50WZO7V9Q-NGMVECfWD7m4OoOIrf0-zUnpEoWNap47CUdd1qxzE5pwd-MA=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=ee145b87b04bc4dc65975e6273c6d703b2764af19444b07e65764830fabc9b60a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qTJlYcOiEQr7d5xvIjtfxs0DQrLzDAOa%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_LENGTH' => '783'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606270882.334
+    'REQUEST_TIME' => 1606270882
+]
+2020-11-25 09:22:07 [::1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Response content must not be an array. in D:\website\web2\vendor\yiisoft\yii2\web\Response.php:1083
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\web\Response.php(337): yii\web\Response->prepare()
+#1 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2020-11-25 09:22:06 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = [
+    'data' => [
+        0 => '1'
+        1 => 'ou'
+        2 => 'trường đại học Mở thành phố Hồ Chí Minh'
+        3 => '1651010030'
+        4 => 'Nguyễn Kim'
+        5 => 'Duy'
+        6 => '27/02/1998'
+        7 => 'Tp.HCM'
+        8 => 'Nam'
+        9 => 'Kinh'
+        10 => 'Việt Nam'
+        11 => 'Khoa học máy tính'
+        12 => 'hợp lệ'
+        13 => 'hợp lệ'
+        14 => 'hợp lệ'
+        15 => 'hợp lệ'
+        16 => 'hoàn thành'
+        17 => 'chính quy'
+        18 => '8.5'
+        19 => 'Giỏi'
+        20 => 'Đủ điều kiện'
+        21 => 'Nguyen Kim'
+        22 => 'Duy'
+        23 => 'Nguyen Kim Duy'
+        24 => 'tn_193'
+        25 => 'học kì 1 - năm 2020'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'ee145b87b04bc4dc65975e6273c6d703b2764af19444b07e65764830fabc9b60a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qTJlYcOiEQr7d5xvIjtfxs0DQrLzDAOa\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-a106359a-d3c6-49ab-8691-5c46ef66cb5d'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52911'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '783'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'I3DHiuZyU9g1S2qom_RM_zjwyBcRYGHnvagKUfySw6RSJI3mvxEcsXAaGJ__wTSJcZq8cWkTUaPs2kYruNOMxQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=ee145b87b04bc4dc65975e6273c6d703b2764af19444b07e65764830fabc9b60a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qTJlYcOiEQr7d5xvIjtfxs0DQrLzDAOa%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_LENGTH' => '783'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606270926.8247
+    'REQUEST_TIME' => 1606270926
+]
+2020-11-25 09:22:32 [::1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Response content must not be an array. in D:\website\web2\vendor\yiisoft\yii2\web\Response.php:1083
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\web\Response.php(337): yii\web\Response->prepare()
+#1 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2020-11-25 09:22:32 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = [
+    'data' => [
+        0 => '1'
+        1 => 'ou'
+        2 => 'trường đại học Mở thành phố Hồ Chí Minh'
+        3 => '1651010030'
+        4 => 'Nguyễn Kim'
+        5 => 'Duy'
+        6 => '27/02/1998'
+        7 => 'Tp.HCM'
+        8 => 'Nam'
+        9 => 'Kinh'
+        10 => 'Việt Nam'
+        11 => 'Khoa học máy tính'
+        12 => 'hợp lệ'
+        13 => 'hợp lệ'
+        14 => 'hợp lệ'
+        15 => 'hợp lệ'
+        16 => 'hoàn thành'
+        17 => 'chính quy'
+        18 => '8.5'
+        19 => 'Giỏi'
+        20 => 'Đủ điều kiện'
+        21 => 'Nguyen Kim'
+        22 => 'Duy'
+        23 => 'Nguyen Kim Duy'
+        24 => 'tn_193'
+        25 => 'học kì 1 - năm 2020'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'ee145b87b04bc4dc65975e6273c6d703b2764af19444b07e65764830fabc9b60a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qTJlYcOiEQr7d5xvIjtfxs0DQrLzDAOa\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-a106359a-d3c6-49ab-8691-5c46ef66cb5d'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52911'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '783'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => '17absPrdxljybONOMoOeY8tMGZ_Oqt1C7R2NFxc7bEim4tHco76JMbc9kXlWtuYVgiZt-bbZ7Qa8b8FtU3ojKQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=ee145b87b04bc4dc65975e6273c6d703b2764af19444b07e65764830fabc9b60a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qTJlYcOiEQr7d5xvIjtfxs0DQrLzDAOa%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_LENGTH' => '783'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606270952.5368
+    'REQUEST_TIME' => 1606270952
+]
+2020-11-25 09:23:48 [::1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Response content must not be an array. in D:\website\web2\vendor\yiisoft\yii2\web\Response.php:1083
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\web\Response.php(337): yii\web\Response->prepare()
+#1 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2020-11-25 09:23:48 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = [
+    'data' => [
+        0 => '1'
+        1 => 'ou'
+        2 => 'trường đại học Mở thành phố Hồ Chí Minh'
+        3 => '1651010030'
+        4 => 'Nguyễn Kim'
+        5 => 'Duy'
+        6 => '27/02/1998'
+        7 => 'Tp.HCM'
+        8 => 'Nam'
+        9 => 'Kinh'
+        10 => 'Việt Nam'
+        11 => 'Khoa học máy tính'
+        12 => 'hợp lệ'
+        13 => 'hợp lệ'
+        14 => 'hợp lệ'
+        15 => 'hợp lệ'
+        16 => 'hoàn thành'
+        17 => 'chính quy'
+        18 => '8.5'
+        19 => 'Giỏi'
+        20 => 'Đủ điều kiện'
+        21 => 'Nguyen Kim'
+        22 => 'Duy'
+        23 => 'Nguyen Kim Duy'
+        24 => 'tn_193'
+        25 => 'học kì 1 - năm 2020'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'ca616e3639d80ebf460f4aef46ebfabadfb7c286104344e0a8385a1fb55f15d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"zf7pNP0HqRzWIEvOmovJsEyv5jJaPfA1\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-a106359a-d3c6-49ab-8691-5c46ef66cb5d'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '53004'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '783'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'BWxipk9apBMcYRsX1JAQAX58zCKT8dJNH2aTu0DKm8J_ClXWAQqUW20zYUCd1WZOExO6aOC0qzsqDNnaEKza8w=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=ca616e3639d80ebf460f4aef46ebfabadfb7c286104344e0a8385a1fb55f15d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22zf7pNP0HqRzWIEvOmovJsEyv5jJaPfA1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_LENGTH' => '783'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606271028.4162
+    'REQUEST_TIME' => 1606271028
+]
+2020-11-25 09:32:20 [::1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Response content must not be an array. in D:\website\web2\vendor\yiisoft\yii2\web\Response.php:1083
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\web\Response.php(337): yii\web\Response->prepare()
+#1 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2020-11-25 09:32:20 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = [
+    'data' => [
+        0 => '1'
+        1 => 'ou'
+        2 => 'trường đại học Mở thành phố Hồ Chí Minh'
+        3 => '1651010030'
+        4 => 'Nguyễn Kim'
+        5 => 'Duy'
+        6 => '27/02/1998'
+        7 => 'Tp.HCM'
+        8 => 'Nam'
+        9 => 'Kinh'
+        10 => 'Việt Nam'
+        11 => 'Khoa học máy tính'
+        12 => 'hợp lệ'
+        13 => 'hợp lệ'
+        14 => 'hợp lệ'
+        15 => 'hợp lệ'
+        16 => 'hoàn thành'
+        17 => 'chính quy'
+        18 => '8.5'
+        19 => 'Giỏi'
+        20 => 'Đủ điều kiện'
+        21 => 'Nguyen Kim'
+        22 => 'Duy'
+        23 => 'Nguyen Kim Duy'
+        24 => 'tn_193'
+        25 => 'học kì 1 - năm 2020'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'ca616e3639d80ebf460f4aef46ebfabadfb7c286104344e0a8385a1fb55f15d7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"zf7pNP0HqRzWIEvOmovJsEyv5jJaPfA1\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-a106359a-d3c6-49ab-8691-5c46ef66cb5d'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '53241'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '783'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => '5yIx-rcmx5vYSvS6rPVCNLgACBNGctVPKUqZJNBuKqqdRAaK-Xb306kYju3lsDR71W9-WTU3rDkcINNFgAhrmw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=ca616e3639d80ebf460f4aef46ebfabadfb7c286104344e0a8385a1fb55f15d7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22zf7pNP0HqRzWIEvOmovJsEyv5jJaPfA1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_LENGTH' => '783'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606271540.3761
+    'REQUEST_TIME' => 1606271540
+]
+2020-11-25 09:37:48 [::1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 09:37:48 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-55325f8f-5d12-4135-867d-6d7b16daa77c'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '53393'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606271868.6952
+    'REQUEST_TIME' => 1606271868
+]
+2020-11-25 09:55:59 [::1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 09:55:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-cd4e190e-ae8c-4d66-a779-4002a0245c98'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '53886'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606272959.1317
+    'REQUEST_TIME' => 1606272959
+]
+2020-11-25 10:10:11 [::1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 10:10:11 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'f4ac7eccf123391b3547f863872bae0206cbaf79f48e9084096766f1d7b3d4a7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xXls1qroA5wy7VgmFOylE7l2tXEY4-Ie\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-7d76acc3-e739-4301-b360-434bef9394b7'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '54476'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=f4ac7eccf123391b3547f863872bae0206cbaf79f48e9084096766f1d7b3d4a7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xXls1qroA5wy7VgmFOylE7l2tXEY4-Ie%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606273811.2556
+    'REQUEST_TIME' => 1606273811
+]
+2020-11-25 10:18:09 [::1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 10:18:09 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'f4ac7eccf123391b3547f863872bae0206cbaf79f48e9084096766f1d7b3d4a7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xXls1qroA5wy7VgmFOylE7l2tXEY4-Ie\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-17b55d4b-699a-4081-b433-adce6e784ddc'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '54762'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=f4ac7eccf123391b3547f863872bae0206cbaf79f48e9084096766f1d7b3d4a7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xXls1qroA5wy7VgmFOylE7l2tXEY4-Ie%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606274289.7219
+    'REQUEST_TIME' => 1606274289
+]
+2020-11-25 10:29:36 [::1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 10:29:36 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-123ca3b3-a54d-4327-8127-bc6b7c4b909e'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55095'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606274976.7355
+    'REQUEST_TIME' => 1606274976
+]
+2020-11-25 10:29:50 [::1][-][-][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null in D:\website\web2\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null
+The SQL being executed was: INSERT INTO `tb_tinh_trang_sv` (`mssv`, `giay_ks`, `bang_cap`, `hinh`, `phieu_dkxcb`, `ct_dt`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL) in D:\website\web2\vendor\yiisoft\yii2\db\Schema.php:677
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'mssv' cannot be null
+)
+
+2020-11-25 10:29:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => '6bad7aa859c1bbfc565054a4bf0a0d54dba1655112ec7217624f981782365c80a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qRdY42sXVKp3sVwZkcQMBkxTBWiV0ndV\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-123ca3b3-a54d-4327-8127-bc6b7c4b909e'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55094'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'YmW9xCVxT6LeSONFRbaTZ8D2QYMFT1nlqtSO22O7_h8TN9mdEUM8-ogDk3Y24OQ9q5UQzkckIbHog-eNU9WaSQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=6bad7aa859c1bbfc565054a4bf0a0d54dba1655112ec7217624f981782365c80a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qRdY42sXVKp3sVwZkcQMBkxTBWiV0ndV%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606274990.3388
+    'REQUEST_TIME' => 1606274990
+]
+2020-11-25 10:30:44 [::1][-][-][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null in D:\website\web2\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null
+The SQL being executed was: INSERT INTO `tb_tinh_trang_sv` (`mssv`, `giay_ks`, `bang_cap`, `hinh`, `phieu_dkxcb`, `ct_dt`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL) in D:\website\web2\vendor\yiisoft\yii2\db\Schema.php:677
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'mssv' cannot be null
+)
+
+2020-11-25 10:30:44 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => '6bad7aa859c1bbfc565054a4bf0a0d54dba1655112ec7217624f981782365c80a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qRdY42sXVKp3sVwZkcQMBkxTBWiV0ndV\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-123ca3b3-a54d-4327-8127-bc6b7c4b909e'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55094'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'eqOk7VX4sK2bc6btJQH85GfeNgHdXN5SEH2AwFrLNRML8cC0YcrD9c041t5WV4u-DL1nTJ83pgZSKumWaqVRRQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=6bad7aa859c1bbfc565054a4bf0a0d54dba1655112ec7217624f981782365c80a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qRdY42sXVKp3sVwZkcQMBkxTBWiV0ndV%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606275044.5772
+    'REQUEST_TIME' => 1606275044
+]
+2020-11-25 10:34:07 [::1][-][-][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null in D:\website\web2\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null
+The SQL being executed was: INSERT INTO `tb_tinh_trang_sv` (`mssv`, `giay_ks`, `bang_cap`, `hinh`, `phieu_dkxcb`, `ct_dt`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL) in D:\website\web2\vendor\yiisoft\yii2\db\Schema.php:677
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'mssv' cannot be null
+)
+
+2020-11-25 10:34:07 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'c567a510a05da3019cb125126ed17462e2d947da0cd3833a7b61eb20244c1ce2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"MmsiGfIRY4sb1hMKLcqRWnwF6UQ1Wrdv\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-123ca3b3-a54d-4327-8127-bc6b7c4b909e'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55331'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'cvAjV9zRwTY8ywluUvKYV9sUlgX9B5UuWt-4gs6lpvw_nVA-m7eIZGX_egxjmtUcl3fnV6pp4mhsiumzmdfCig=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=c567a510a05da3019cb125126ed17462e2d947da0cd3833a7b61eb20244c1ce2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22MmsiGfIRY4sb1hMKLcqRWnwF6UQ1Wrdv%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606275247.023
+    'REQUEST_TIME' => 1606275247
+]
+2020-11-25 10:40:23 [::1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 10:40:23 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = [
+    '_csrf-backend' => 'cvAjV9zRwTY8ywluUvKYV9sUlgX9B5UuWt-4gs6lpvw_nVA-m7eIZGX_egxjmtUcl3fnV6pp4mhsiumzmdfCig=='
+    'UploadForm' => [
+        'uploadFile' => ''
+    ]
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'uploadFile' => 'Book1.xlsx'
+        ]
+        'type' => [
+            'uploadFile' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        ]
+        'tmp_name' => [
+            'uploadFile' => 'D:\\website\\phpD808.tmp'
+        ]
+        'error' => [
+            'uploadFile' => 0
+        ]
+        'size' => [
+            'uploadFile' => 8849
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'c567a510a05da3019cb125126ed17462e2d947da0cd3833a7b61eb20244c1ce2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"MmsiGfIRY4sb1hMKLcqRWnwF6UQ1Wrdv\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-aa258b6c-9ee7-4961-95a9-c0d3087544e4'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55510'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarych32ACuIxreGu3i0'
+    'CONTENT_LENGTH' => '9403'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=c567a510a05da3019cb125126ed17462e2d947da0cd3833a7b61eb20244c1ce2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22MmsiGfIRY4sb1hMKLcqRWnwF6UQ1Wrdv%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarych32ACuIxreGu3i0'
+    'HTTP_CONTENT_LENGTH' => '9403'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606275623.6138
+    'REQUEST_TIME' => 1606275623
+]
+2020-11-25 10:40:43 [::1][-][-][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null in D:\website\web2\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null
+The SQL being executed was: INSERT INTO `tb_tinh_trang_sv` (`mssv`, `giay_ks`, `bang_cap`, `hinh`, `phieu_dkxcb`, `ct_dt`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL) in D:\website\web2\vendor\yiisoft\yii2\db\Schema.php:677
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'mssv' cannot be null
+)
+
+2020-11-25 10:40:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'd44813e6df388d8149c44799aec32b5cfe66d49a8646b6e0696cf930b28e0fe7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AEGuAZSofaISKnKobERhWK4rZXcft48l\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-aa258b6c-9ee7-4961-95a9-c0d3087544e4'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55517'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => '_Krvi87RriYa_ESsx9qoY3W18-bNtTbQ3VxqyroztHi976j-j4v9SXydDf-MtOMMF_Chjpr-AqKHBAmszgeMFA=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=d44813e6df388d8149c44799aec32b5cfe66d49a8646b6e0696cf930b28e0fe7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AEGuAZSofaISKnKobERhWK4rZXcft48l%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606275643.0517
+    'REQUEST_TIME' => 1606275643
+]
+2020-11-25 10:40:43 [::1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 10:40:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = [
+    '_csrf-backend' => '_Krvi87RriYa_ESsx9qoY3W18-bNtTbQ3VxqyroztHi976j-j4v9SXydDf-MtOMMF_Chjpr-AqKHBAmszgeMFA=='
+    'UploadForm' => [
+        'uploadFile' => ''
+    ]
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'uploadFile' => 'Book1.xlsx'
+        ]
+        'type' => [
+            'uploadFile' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        ]
+        'tmp_name' => [
+            'uploadFile' => 'D:\\website\\php259B.tmp'
+        ]
+        'error' => [
+            'uploadFile' => 0
+        ]
+        'size' => [
+            'uploadFile' => 8849
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'd44813e6df388d8149c44799aec32b5cfe66d49a8646b6e0696cf930b28e0fe7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AEGuAZSofaISKnKobERhWK4rZXcft48l\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-d10fcf97-165d-4ac4-83f7-c5bd5aee163e'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55516'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarysvzIAL9yxfl8JBfh'
+    'CONTENT_LENGTH' => '9403'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=d44813e6df388d8149c44799aec32b5cfe66d49a8646b6e0696cf930b28e0fe7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AEGuAZSofaISKnKobERhWK4rZXcft48l%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarysvzIAL9yxfl8JBfh'
+    'HTTP_CONTENT_LENGTH' => '9403'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606275643.4828
+    'REQUEST_TIME' => 1606275643
+]
+2020-11-25 10:40:57 [::1][-][-][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null in D:\website\web2\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null
+The SQL being executed was: INSERT INTO `tb_tinh_trang_sv` (`mssv`, `giay_ks`, `bang_cap`, `hinh`, `phieu_dkxcb`, `ct_dt`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL) in D:\website\web2\vendor\yiisoft\yii2\db\Schema.php:677
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'mssv' cannot be null
+)
+
+2020-11-25 10:40:57 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'd44813e6df388d8149c44799aec32b5cfe66d49a8646b6e0696cf930b28e0fe7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AEGuAZSofaISKnKobERhWK4rZXcft48l\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-d10fcf97-165d-4ac4-83f7-c5bd5aee163e'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55517'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'PJ5TeMcw7YPx2noX4l-QrTBGoGtD8F_OYyCoTjBGbJZ92xQNhmq-7Je7M0SpMdvCUgPyAxS7a7w5eMsoRHJU-g=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=d44813e6df388d8149c44799aec32b5cfe66d49a8646b6e0696cf930b28e0fe7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AEGuAZSofaISKnKobERhWK4rZXcft48l%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606275657.6594
+    'REQUEST_TIME' => 1606275657
+]
+2020-11-25 10:47:09 [::1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 10:47:09 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-ef34d3bb-2a69-4994-84b5-b9628b40140e'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55703'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606276029.8127
+    'REQUEST_TIME' => 1606276029
+]
+2020-11-25 10:47:17 [::1][-][-][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null in D:\website\web2\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'mssv' cannot be null
+The SQL being executed was: INSERT INTO `tb_tinh_trang_sv` (`mssv`, `giay_ks`, `bang_cap`, `hinh`, `phieu_dkxcb`, `ct_dt`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL) in D:\website\web2\vendor\yiisoft\yii2\db\Schema.php:677
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('{{tb_tinh_trang...', Array)
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\website\web2\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\website\web2\backend\utilities\Graduation.php(16): yii\db\BaseActiveRecord->save()
+#7 D:\website\web2\backend\controllers\OudeController.php(62): backend\utilities\Graduation::addToStudentStatus(Object(backend\models\StudentStatus), NULL)
+#8 [internal function]: backend\controllers\OudeController->actionAdd()
+#9 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add', Array)
+#12 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/add', Array)
+#13 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'mssv' cannot be null
+)
+
+2020-11-25 10:47:17 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/add'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => '2a8a6c68848b838a7aefabb0a8895d3389ea0019935997f20711138e9e49b1f3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"28ht1jLdfR_HaFjtpRZtE3rMp-GPmaMY\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-ef34d3bb-2a69-4994-84b5-b9628b40140e'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/add'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55705'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/add'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'b4Zm45laxnHe4zNWdqHoINPUp6ixczwKoAxMRLPkIGZdvg6XqDCKFbixbB4X54JUo4b93PRATkfQIQsU3oVtPw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=2a8a6c68848b838a7aefabb0a8895d3389ea0019935997f20711138e9e49b1f3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2228ht1jLdfR_HaFjtpRZtE3rMp-GPmaMY%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606276037.2487
+    'REQUEST_TIME' => 1606276037
+]
+2020-11-25 10:47:17 [::1][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 10:47:17 [::1][-][-][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = [
+    '_csrf-backend' => 'b4Zm45laxnHe4zNWdqHoINPUp6ixczwKoAxMRLPkIGZdvg6XqDCKFbixbB4X54JUo4b93PRATkfQIQsU3oVtPw=='
+    'UploadForm' => [
+        'uploadFile' => ''
+    ]
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'uploadFile' => 'Book1.xlsx'
+        ]
+        'type' => [
+            'uploadFile' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        ]
+        'tmp_name' => [
+            'uploadFile' => 'D:\\website\\php2957.tmp'
+        ]
+        'error' => [
+            'uploadFile' => 0
+        ]
+        'size' => [
+            'uploadFile' => 8849
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '2a8a6c68848b838a7aefabb0a8895d3389ea0019935997f20711138e9e49b1f3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"28ht1jLdfR_HaFjtpRZtE3rMp-GPmaMY\";}'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-a18f0d09-e6c1-41ea-b390-a51dcf45484b'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'POST'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55707'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryJfkUZc0okEmJQKyB'
+    'CONTENT_LENGTH' => '9403'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php?r=oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=2a8a6c68848b838a7aefabb0a8895d3389ea0019935997f20711138e9e49b1f3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2228ht1jLdfR_HaFjtpRZtE3rMp-GPmaMY%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryJfkUZc0okEmJQKyB'
+    'HTTP_CONTENT_LENGTH' => '9403'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606276037.6536
+    'REQUEST_TIME' => 1606276037
+]
+2020-11-25 14:21:12 [::1][-][lv68k0okeulbj9ftth7e9sr58u][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "oude/images/user.png". in D:\website\web2\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/images/use...', Array)
+#1 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\website\web2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-11-25 14:21:11 [::1][-][lv68k0okeulbj9ftth7e9sr58u][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => '2a8a6c68848b838a7aefabb0a8895d3389ea0019935997f20711138e9e49b1f3a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"28ht1jLdfR_HaFjtpRZtE3rMp-GPmaMY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-e6e512aa-ce1a-4f1b-b1a6-fabd02f60047'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php/oude/images/user.png'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php/oude/images/user.png'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '62255'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php\\oude\\images\\user.png'
+    'PATH_INFO' => '/oude/images/user.png'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php/oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=2a8a6c68848b838a7aefabb0a8895d3389ea0019935997f20711138e9e49b1f3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2228ht1jLdfR_HaFjtpRZtE3rMp-GPmaMY%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php/oude/images/user.png'
+    'REQUEST_TIME_FLOAT' => 1606288871.6058
+    'REQUEST_TIME' => 1606288871
+]
+2020-11-25 14:22:10 [::1][-][o8u4k5jlbekhet881hda1pk6t2][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "oude/images/user.png". in D:\website\web2\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/images/use...', Array)
+#1 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\website\web2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\website\web2\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-11-25 14:22:10 [::1][-][o8u4k5jlbekhet881hda1pk6t2][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => '206f5169997cef0540ecab8ed06365db3b22b20ce888b1c7613437dcb51ed046a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"5sKh7fe6cVBeiuKGiq93nQE5qFim6Wpv\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-e6e512aa-ce1a-4f1b-b1a6-fabd02f60047'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php/oude/images/user.png'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php/oude/images/user.png'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '62316'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php\\oude\\images\\user.png'
+    'PATH_INFO' => '/oude/images/user.png'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/web2back/index.php/oude/upload'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => '_csrf-backend=206f5169997cef0540ecab8ed06365db3b22b20ce888b1c7613437dcb51ed046a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%225sKh7fe6cVBeiuKGiq93nQE5qFim6Wpv%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php/oude/images/user.png'
+    'REQUEST_TIME_FLOAT' => 1606288930.2663
+    'REQUEST_TIME' => 1606288930
+]
+2020-11-25 15:57:04 [::1][-][l0gkvp8li8861kfei46phaabi7][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 15:57:04 [::1][-][l0gkvp8li8861kfei46phaabi7][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/web2back/index.php?r=oude/upload'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-7932c431-711a-4961-91b5-9bd1102bdaff'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '65172'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606294624.3061
+    'REQUEST_TIME' => 1606294624
+]
+2020-11-25 16:13:26 [::1][-][l0gkvp8li8861kfei46phaabi7][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-25 16:13:26 [::1][-][l0gkvp8li8861kfei46phaabi7][info][application] $_GET = [
+    'r' => 'oude/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'l0gkvp8li8861kfei46phaabi7'
+    'advanced-frontend' => 'rbhhbg22fuirqjmo0qu06orh07'
+    '_csrf-frontend' => '9c7dde9c9bbac2ad1cbc25f9156b19142f933a10881e21d377e67b3be18d5fb8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qO4IgPqBDjqcdLMWWpEVe1FjmdfccEgk\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost/web2back/index.php?r=oude/upload\\'
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-9ee31784-6fd9-40e1-a1a7-884a701fef15'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\DefaultAppPool\\DefaultAppPool.config'
+    'APP_POOL_ID' => 'DefaultAppPool'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/web2back/index.php'
+    'URL' => '/web2back/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'SCRIPT_NAME' => '/web2back/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'REQUEST_URI' => '/web2back/index.php?r=oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '49273'
+    'REMOTE_HOST' => '::1'
+    'REMOTE_ADDR' => '::1'
+    'QUERY_STRING' => 'r=oude/upload'
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\backend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '::1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/1'
+    'INSTANCE_NAME' => 'DEFAULT WEB SITE'
+    'INSTANCE_ID' => '1'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'C:\\inetpub\\wwwroot'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'C:\\inetpub\\wwwroot\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/1/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => 'advanced-backend=l0gkvp8li8861kfei46phaabi7; advanced-frontend=rbhhbg22fuirqjmo0qu06orh07; _csrf-frontend=9c7dde9c9bbac2ad1cbc25f9156b19142f933a10881e21d377e67b3be18d5fb8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qO4IgPqBDjqcdLMWWpEVe1FjmdfccEgk%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web2back/index.php'
+    'REQUEST_TIME_FLOAT' => 1606295606.8
+    'REQUEST_TIME' => 1606295606
+]

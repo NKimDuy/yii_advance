@@ -55,8 +55,8 @@ class OudeController extends Controller
 	{
 		if (Yii::$app->request->isAjax) 
 		{
-			$data = $_POST['data'];
-			//$data = \Yii::$app->request->post('data');	
+			//$data = $_POST['data'];
+			$data = \Yii::$app->request->post('data');	
 		}
 		$student = new StudentStatus();
 		Graduation::addToStudentStatus($student, $data);
