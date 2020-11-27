@@ -30272,3 +30272,1739 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1606295008.7035
     'REQUEST_TIME' => 1606295008
 ]
+2020-11-26 09:41:41 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-26 09:41:41 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-e7b9e208-a9f9-4fd7-9e17-ec4cace5cbb2'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '55377'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => 'advanced-frontend=khedeob26qsp5khpq4ka9s4uk9; _csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606358501.8122
+    'REQUEST_TIME' => 1606358501
+]
+2020-11-26 11:53:36 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-26 11:53:36 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-ca6b795e-2b6d-4f0a-8dda-c883bb0ec6f4'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '56006'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.1'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => 'advanced-frontend=khedeob26qsp5khpq4ka9s4uk9; _csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606366416.7985
+    'REQUEST_TIME' => 1606366416
+]
+2020-11-26 12:06:19 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-26 12:06:19 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-64d9cfdb-c2bd-4658-bc7d-bfb5ac85fa6c'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '56055'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => 'advanced-frontend=khedeob26qsp5khpq4ka9s4uk9; _csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606367179.2137
+    'REQUEST_TIME' => 1606367179
+]
+2020-11-26 14:55:45 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-26 14:55:45 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-387c3cc3-abd1-4c50-8145-7183721f5ce7'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '64316'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => 'advanced-frontend=khedeob26qsp5khpq4ka9s4uk9; _csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606377345.7585
+    'REQUEST_TIME' => 1606377345
+]
+2020-11-26 15:04:34 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-26 15:04:34 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-cbfd1094-32d8-4101-b640-52e43eeebbfd'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '64393'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => 'advanced-frontend=khedeob26qsp5khpq4ka9s4uk9; _csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606377874.1641
+    'REQUEST_TIME' => 1606377874
+]
+2020-11-26 16:47:19 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'graduationdb.sinh_vien' doesn't exist in D:\website\web2\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1159): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\website\web2\vendor\yiisoft\yii2\db\Query.php(248): yii\db\Command->queryAll()
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\website\web2\frontend\controllers\OudeController.php(17): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\OudeController->actionIndex()
+#7 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#9 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude', Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\website\web2\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'graduationdb.sinh_vien' doesn't exist
+The SQL being executed was: SELECT * FROM `sinh_vien` WHERE `mssv`='' in D:\website\web2\vendor\yiisoft\yii2\db\Schema.php:677
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1159): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\website\web2\vendor\yiisoft\yii2\db\Query.php(248): yii\db\Command->queryAll()
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\website\web2\frontend\controllers\OudeController.php(17): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\OudeController->actionIndex()
+#7 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#9 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude', Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\website\web2\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'graduationdb.sinh_vien' doesn't exist
+)
+
+2020-11-26 16:47:17 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pcqivo'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-53f98aca-2e7d-4e3c-b510-872a1442a9f7'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/oude'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '49653'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'IIS_UrlRewriteModule' => '7,1,1993,2351'
+    'WEBSOCKET_VERSION' => '13'
+    'UNENCODED_URL' => '/oude'
+    'IIS_WasUrlRewritten' => '1'
+    'HTTP_X_ORIGINAL_URL' => '/oude'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => 'advanced-frontend=khedeob26qsp5khpq4ka9s4uk9; _csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606384037.5247
+    'REQUEST_TIME' => 1606384037
+]
+2020-11-27 09:23:58 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-27 09:23:56 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pcqivo'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-ad8545a2-778c-46a6-bd26-b3e82bc778a9'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/site/contact'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '59620'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'IIS_UrlRewriteModule' => '7,1,1993,2351'
+    'WEBSOCKET_VERSION' => '13'
+    'UNENCODED_URL' => '/site/contact'
+    'IIS_WasUrlRewritten' => '1'
+    'HTTP_X_ORIGINAL_URL' => '/site/contact'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_REFERER' => 'http://duy.yiifrontend/site/signup'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => '_csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D; advanced-frontend=khedeob26qsp5khpq4ka9s4uk9'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606443836.6252
+    'REQUEST_TIME' => 1606443836
+]
+2020-11-27 09:24:05 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/oude in D:\website\web2\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('oude', Array)
+#1 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/oude', Array)
+#2 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\website\web2\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\website\web2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\website\web2\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-11-27 09:24:05 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pcqivo'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-e7f69ff6-c07a-41db-a124-78a6c4a2b866'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/site/oude'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '59620'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'IIS_UrlRewriteModule' => '7,1,1993,2351'
+    'WEBSOCKET_VERSION' => '13'
+    'UNENCODED_URL' => '/site/oude'
+    'IIS_WasUrlRewritten' => '1'
+    'HTTP_X_ORIGINAL_URL' => '/site/oude'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => '_csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D; advanced-frontend=khedeob26qsp5khpq4ka9s4uk9'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606443845.4783
+    'REQUEST_TIME' => 1606443845
+]
+2020-11-27 09:24:16 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: oude/upload in D:\website\web2\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#1 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/upload', Array)
+#2 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\website\web2\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\website\web2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\website\web2\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-11-27 09:24:16 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pcqivo'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-e7f69ff6-c07a-41db-a124-78a6c4a2b866'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '59620'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'IIS_UrlRewriteModule' => '7,1,1993,2351'
+    'WEBSOCKET_VERSION' => '13'
+    'UNENCODED_URL' => '/oude/upload'
+    'IIS_WasUrlRewritten' => '1'
+    'HTTP_X_ORIGINAL_URL' => '/oude/upload'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => '_csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D; advanced-frontend=khedeob26qsp5khpq4ka9s4uk9'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606443856.1384
+    'REQUEST_TIME' => 1606443856
+]
+2020-11-27 09:24:21 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: oude/upload in D:\website\web2\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#1 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/upload', Array)
+#2 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\website\web2\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\website\web2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\website\web2\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-11-27 09:24:21 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pcqivo'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-e7f69ff6-c07a-41db-a124-78a6c4a2b866'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/oude/upload'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '59620'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'IIS_UrlRewriteModule' => '7,1,1993,2351'
+    'WEBSOCKET_VERSION' => '13'
+    'UNENCODED_URL' => '/oude/upload'
+    'IIS_WasUrlRewritten' => '1'
+    'HTTP_X_ORIGINAL_URL' => '/oude/upload'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => '_csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D; advanced-frontend=khedeob26qsp5khpq4ka9s4uk9'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606443861.3088
+    'REQUEST_TIME' => 1606443861
+]
+2020-11-27 09:24:28 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'graduationdb.sinh_vien' doesn't exist in D:\website\web2\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1159): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\website\web2\vendor\yiisoft\yii2\db\Query.php(248): yii\db\Command->queryAll()
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\website\web2\frontend\controllers\OudeController.php(17): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\OudeController->actionIndex()
+#7 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#9 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/index', Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\website\web2\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'graduationdb.sinh_vien' doesn't exist
+The SQL being executed was: SELECT * FROM `sinh_vien` WHERE `mssv`='' in D:\website\web2\vendor\yiisoft\yii2\db\Schema.php:677
+Stack trace:
+#0 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(1159): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 D:\website\web2\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\website\web2\vendor\yiisoft\yii2\db\Query.php(248): yii\db\Command->queryAll()
+#4 D:\website\web2\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\website\web2\frontend\controllers\OudeController.php(17): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\OudeController->actionIndex()
+#7 D:\website\web2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\website\web2\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#9 D:\website\web2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 D:\website\web2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('oude/index', Array)
+#11 D:\website\web2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\website\web2\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'graduationdb.sinh_vien' doesn't exist
+)
+
+2020-11-27 09:24:26 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pcqivo'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-e7f69ff6-c07a-41db-a124-78a6c4a2b866'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/oude/index'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '59620'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'IIS_UrlRewriteModule' => '7,1,1993,2351'
+    'WEBSOCKET_VERSION' => '13'
+    'UNENCODED_URL' => '/oude/index'
+    'IIS_WasUrlRewritten' => '1'
+    'HTTP_X_ORIGINAL_URL' => '/oude/index'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => '_csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D; advanced-frontend=khedeob26qsp5khpq4ka9s4uk9'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606443866.7168
+    'REQUEST_TIME' => 1606443866
+]
+2020-11-27 09:35:06 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-27 09:35:06 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pcqivo'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-1d4f2c0b-eb05-4ff0-9965-27ca94e7a65d'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '59683'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'IIS_UrlRewriteModule' => '7,1,1993,2351'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => '_csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D; advanced-frontend=khedeob26qsp5khpq4ka9s4uk9'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606444506.4863
+    'REQUEST_TIME' => 1606444506
+]
+2020-11-27 11:02:36 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-27 11:02:36 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pcqivo'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-63623922-a1ec-448f-8dfe-19351fbe0fcf'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '59857'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'IIS_UrlRewriteModule' => '7,1,1993,2351'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => '_csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D; advanced-frontend=khedeob26qsp5khpq4ka9s4uk9'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606449756.381
+    'REQUEST_TIME' => 1606449756
+]
+2020-11-27 11:21:34 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'openssl' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-11-27 11:21:34 [127.0.0.1][-][khedeob26qsp5khpq4ka9s4uk9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KOBQScerHNipg7YfdVeWx5HDE2xm5XDX\";}'
+    'advanced-frontend' => 'khedeob26qsp5khpq4ka9s4uk9'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'pcqivo'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    '_FCGI_X_PIPE_' => '\\\\.\\pipe\\IISFCGI-7dac4337-f96a-4bc7-9f28-c3b7a60bc754'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    'PHPRC' => 'D:\\PHP\\php_7_3_24\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming'
+    'APP_POOL_CONFIG' => 'C:\\inetpub\\temp\\apppools\\yiifrontend\\yiifrontend.config'
+    'APP_POOL_ID' => 'yiifrontend'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DUYNK-CFDE'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'LOCALAPPDATA' => 'C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\PHP\\php_7_3_24;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Windows\\TEMP'
+    'TMP' => 'C:\\Windows\\TEMP'
+    'USERDOMAIN' => 'WORKGROUP'
+    'USERNAME' => 'DUYNK-CFDE$'
+    'USERPROFILE' => 'C:\\Windows\\system32\\config\\systemprofile'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'ORIG_PATH_INFO' => '/index.php'
+    'URL' => '/index.php'
+    'SERVER_SOFTWARE' => 'Microsoft-IIS/10.0'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_PORT_SECURE' => '0'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'duy.yiifrontend'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '60052'
+    'REMOTE_HOST' => '127.0.0.1'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:\\website\\web2\\frontend\\web\\index.php'
+    'LOGON_USER' => ''
+    'LOCAL_ADDR' => '127.0.0.2'
+    'INSTANCE_META_PATH' => '/LM/W3SVC/2'
+    'INSTANCE_NAME' => 'YIIFRONTEND'
+    'INSTANCE_ID' => '2'
+    'HTTPS_SERVER_SUBJECT' => ''
+    'HTTPS_SERVER_ISSUER' => ''
+    'HTTPS_SECRETKEYSIZE' => ''
+    'HTTPS_KEYSIZE' => ''
+    'HTTPS' => 'off'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'DOCUMENT_ROOT' => 'D:\\website\\web2\\frontend\\web'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => '0'
+    'CERT_SUBJECT' => ''
+    'CERT_SERIALNUMBER' => ''
+    'CERT_ISSUER' => ''
+    'CERT_FLAGS' => ''
+    'CERT_COOKIE' => ''
+    'AUTH_USER' => ''
+    'AUTH_PASSWORD' => ''
+    'AUTH_TYPE' => ''
+    'APPL_PHYSICAL_PATH' => 'D:\\website\\web2\\frontend\\web\\'
+    'APPL_MD_PATH' => '/LM/W3SVC/2/ROOT'
+    'IIS_UrlRewriteModule' => '7,1,1993,2351'
+    'WEBSOCKET_VERSION' => '13'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_HOST' => 'duy.yiifrontend'
+    'HTTP_COOKIE' => '_csrf-frontend=6a6844fc963000641db8f6f76679505f0a2e7659d30275ee8fff06aae53c7aa8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KOBQScerHNipg7YfdVeWx5HDE2xm5XDX%22%3B%7D; advanced-frontend=khedeob26qsp5khpq4ka9s4uk9'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1606450894.1244
+    'REQUEST_TIME' => 1606450894
+]

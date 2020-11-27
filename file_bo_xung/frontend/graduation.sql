@@ -59,7 +59,7 @@ INSERT INTO `tb_dan_toc` (`ma_dt`, `ten_dan_toc`) VALUES
 	('35', 'Cơ Ho'),
 	('36', 'Hrê'),
 	('37', 'Mnông'),
-	('38', 'Ra Giai'),
+	('38', 'Jrai'),
 	('39', 'Xtiêng'),
 	('4', 'Hoa'),
 	('40', 'Giê Triêng'),
@@ -72,7 +72,7 @@ INSERT INTO `tb_dan_toc` (`ma_dt`, `ten_dan_toc`) VALUES
 	('47', 'Chu Ru'),
 	('48', 'La Ha'),
 	('49', 'La Hủ'),
-	('5', 'Khơ Me'),
+	('5', 'Khmer'),
 	('50', 'Lự'),
 	('51', 'Chứt'),
 	('52', 'Mảng'),
@@ -319,7 +319,7 @@ CREATE TABLE IF NOT EXISTS `tb_ket_qua` (
 -- Dumping structure for table graduationdb.tb_nganh
 CREATE TABLE IF NOT EXISTS `tb_nganh` (
   `ma_nganh` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL COMMENT 'mã ngành',
-  `ten_nganh` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'tên ngành',
+  `ten_nganh` varchar(500) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'tên ngành',
   PRIMARY KEY (`ma_nganh`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -422,14 +422,14 @@ CREATE TABLE IF NOT EXISTS `tb_sinh_vien` (
   `ten` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'tên có dấu',
   `ten_kd` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'tẻn không có dấu',
   `ngay_sinh` date DEFAULT NULL COMMENT 'ngày sinh',
-  `gioi_tinh` tinyint(1) DEFAULT NULL COMMENT 'giới tính',
+  `gioi_tinh` tinyint(1) DEFAULT NULL COMMENT 'giới tính (1: nam, 0: nữ)',
   PRIMARY KEY (`mssv`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- Dumping data for table graduationdb.tb_sinh_vien: ~2 rows (approximately)
 /*!40000 ALTER TABLE `tb_sinh_vien` DISABLE KEYS */;
 INSERT INTO `tb_sinh_vien` (`mssv`, `ho`, `ho_kd`, `ten`, `ten_kd`, `ngay_sinh`, `gioi_tinh`) VALUES
-	('1651010030', 'nguyễn kim', 'nguyen kim', 'duy', 'duy', '1998-02-27', 1),
+	('1651010030', 'nguyễn kim', 'nguyen kim', 'duy', 'duy', '1996-02-28', 1),
 	('1651010163', 'Phạm Minh', 'Pham Minh', 'Viễn', 'vien', '1996-06-06', 1);
 /*!40000 ALTER TABLE `tb_sinh_vien` ENABLE KEYS */;
 
@@ -451,75 +451,12 @@ CREATE TABLE IF NOT EXISTS `tb_sv_hk` (
 CREATE TABLE IF NOT EXISTS `tb_tinh_thanh` (
   `ma_tinh_thanh` varchar(100) COLLATE utf8_unicode_ci NOT NULL COMMENT 'mã tỉnh thành',
   `ten_tinh_thanh` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'tên tỉnh thành',
+  `ten_tinh_thanh_at` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'tên tỉnh thành có trong file excel của anh Thi',
   PRIMARY KEY (`ma_tinh_thanh`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table graduationdb.tb_tinh_thanh: ~63 rows (approximately)
+-- Dumping data for table graduationdb.tb_tinh_thanh: ~0 rows (approximately)
 /*!40000 ALTER TABLE `tb_tinh_thanh` DISABLE KEYS */;
-INSERT INTO `tb_tinh_thanh` (`ma_tinh_thanh`, `ten_tinh_thanh`) VALUES
-	('1', 'An Giang'),
-	('10', 'Bình Phước'),
-	('11', 'Bình Thuận'),
-	('12', 'Cà Mau'),
-	('13', 'Cao Bằng'),
-	('14', 'Đắk Lắk'),
-	('15', 'Đắk Nông'),
-	('16', 'Điện Biên'),
-	('17', 'Đồng Nai'),
-	('18', 'Đồng Tháp'),
-	('19', 'Gia Lai'),
-	('2', 'Bà Rịa - Vũng Tàu'),
-	('20', 'Hà Giang'),
-	('21', 'Hà Nam'),
-	('22', 'Hà Tĩnh'),
-	('23', 'Hải Dương'),
-	('24', 'Hậu Giang'),
-	('25', 'Hòa Bình'),
-	('26', 'Hưng Yên'),
-	('27', 'Khánh Hòa'),
-	('28', 'Kiên Giang'),
-	('29', 'Kon Tum'),
-	('3', 'Bắc Giang'),
-	('30', 'Lai Châu'),
-	('31', 'Lâm Đồng'),
-	('32', 'Lạng Sơn'),
-	('33', 'Lào Cai'),
-	('34', 'Long An'),
-	('35', 'Nam Định'),
-	('36', 'Nghệ An'),
-	('37', 'Ninh Bình'),
-	('38', 'Ninh Thuận'),
-	('39', 'Phú Thọ'),
-	('4', 'Bắc Kạn'),
-	('40', 'Quảng Bình'),
-	('41', 'Quảng Nam'),
-	('42', 'Quảng Ngãi'),
-	('43', 'Quảng Ninh'),
-	('44', 'Quảng Trị'),
-	('45', 'Sóc Trăng'),
-	('46', 'Sơn La'),
-	('47', 'Tây Ninh'),
-	('48', 'Thái Bình'),
-	('49', 'Thái Nguyên'),
-	('5', 'Bạc Liêu'),
-	('50', 'Thanh Hóa'),
-	('51', 'Thừa Thiên Huế'),
-	('52', 'Tiền Giang'),
-	('53', 'Trà Vinh'),
-	('54', 'Tuyên Quang'),
-	('55', 'Vĩnh Long'),
-	('56', 'Vĩnh Phúc'),
-	('57', 'Yên Bái'),
-	('58', 'Phú Yên'),
-	('59', 'Cần Thơ'),
-	('6', 'Bắc Ninh'),
-	('60', 'Đà Nẵng'),
-	('61', 'Hải Phòng'),
-	('62', 'Hà Nội'),
-	('63', 'TP HCM'),
-	('7', 'Bến Tre'),
-	('8', 'Bình Định'),
-	('9', 'Bình Dương');
 /*!40000 ALTER TABLE `tb_tinh_thanh` ENABLE KEYS */;
 
 -- Dumping structure for table graduationdb.tb_tinh_trang_sv
@@ -534,7 +471,7 @@ CREATE TABLE IF NOT EXISTS `tb_tinh_trang_sv` (
   CONSTRAINT `tb_tinh_trang_sv_ibfk_1` FOREIGN KEY (`mssv`) REFERENCES `tb_sinh_vien` (`mssv`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table graduationdb.tb_tinh_trang_sv: ~0 rows (approximately)
+-- Dumping data for table graduationdb.tb_tinh_trang_sv: ~1 rows (approximately)
 /*!40000 ALTER TABLE `tb_tinh_trang_sv` DISABLE KEYS */;
 /*!40000 ALTER TABLE `tb_tinh_trang_sv` ENABLE KEYS */;
 
