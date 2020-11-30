@@ -5,7 +5,7 @@ namespace backend\models;
 use yii\base\Model;
 use yii\db\ActiveRecord;
 
-class SinhVienHocKi extends ActiveRecord
+class SemesterStudent extends ActiveRecord
 {
 	public static function tableName()
 	{

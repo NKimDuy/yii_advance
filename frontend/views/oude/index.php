@@ -1,14 +1,27 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use frontend\models\SinhVien;
+use frontend\models\Student;
 use yii\captcha\Captcha;
 
-$model = new SinhVien();
+$student = new Student();
 ?>
 
 <html>
 <body>
+	
+	
+	<!--
+		<?php //$form = ActiveForm::begin(); ?>
+
+    <?= //$form->field($model, 'mssv') ?>
+
+    <div class="form-group">
+        <?= //Html::submitButton('Submit', ['class' => 'btn btn-primary']) ?>
+    </div>
+	
+	<?= //Alert::widget() ?>
+	-->
 	
 		<div class="container-fluid">
 			<div id = "find-table" class ="row justify-content-center">
@@ -77,13 +90,13 @@ $model = new SinhVien();
 				</thead>
 				<tbody>
 					<?php
-						foreach($nhieuSinhVien as $sinhVien)
+						foreach($students as $student)
 						{
 					?>
 					<tr>
-						<td class='align-middle'><?php echo $sinhVien['mssv']; ?></td>
-						<td class='align-middle'><?php echo $sinhVien['ho']; ?></td>
-						<td class='align-middle'><?php echo $sinhVien['ten']; ?></td>
+						<td class='align-middle'><?php echo $student['mssv']; ?></td>
+						<td class='align-middle'><?php echo $student['ho']; ?></td>
+						<td class='align-middle'><?php echo $student['ten']; ?></td>
 						
 						<td><a class="btn btn-outline-primary" id = "detail" href="#">Xem chi tiết</a></td>
 					</tr>

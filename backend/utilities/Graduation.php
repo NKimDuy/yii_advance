@@ -24,27 +24,39 @@ class Graduation
 		$student->ten = $data[5];
 		$student->ten_kd = $data[22];
 		$student->ngay_sinh = $data[6];
-		$student->gioi_tinh = $data[7];
+		if ($data[8] == 'Nam')
+			$student->gioi_tinh = 1;
+		else
+			$student->gioi_tinh = 0;
 		
 		$student->save();
 	}
 	
 	public static function addToStudentRecord($student, $data)
 	{
-		
+		$student->mssv = $data[3];
+		$student->ma_dan_toc = $data[26];
+		$student->ma_noi_sinh = $data[25];
+		$student->ma_quoc_tich = $data[27];
+		$student->ma_dvlk = $data[1];
+		$student->ma_nganh = $data[28];
+		$student->ma_htdt = $data[29];
+		$student->save();
 	}
 	
 	public static function addToGraduationSemester($student, $data)
 	{
-		$student->ma_hk = $data[24];
-		$student->chi_tiet_hk = $data[25];
+		$student->ma_hk = $data[23];
+		$student->chi_tiet_hk = $data[24];
 		
 		$student->save();
 	}
 	
 	public static function addToSemesterStudent($student, $data)
 	{
-		
+		$student->mssv = $data[3];
+		$student->ma_hk = $data[23];
+		$student->save();
 	}
 	
 	public static function addToResult($student, $data)

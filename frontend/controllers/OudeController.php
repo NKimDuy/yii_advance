@@ -4,7 +4,7 @@ namespace frontend\controllers;
 
 use yii\web\Controller;
 use yii\data\Pagination;
-use frontend\models\SinhVien;
+use frontend\models\Student;
 
 class OudeController extends Controller
 {
@@ -12,14 +12,14 @@ class OudeController extends Controller
     public function actionIndex()
     {
 		
-		$mssv = \Yii::$app->request->post('username', '');
+		$mssv = \Yii::$app->request->post('mssv', '');
 		
-		$nhieuSinhVien = SinhVien::find()->where(['mssv' => $mssv])->all();
+		$students = Student::find()->where(['mssv' => $mssv])->all();
 		
         //$nhieuSinhVien = SinhVien::find()->all();
 
         return $this->render('index', [
-            'nhieuSinhVien' => $nhieuSinhVien
+            'students' => $students
         ]);
     }
 }
