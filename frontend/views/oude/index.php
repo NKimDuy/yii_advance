@@ -3,45 +3,38 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use frontend\models\Student;
 use yii\captcha\Captcha;
+use yii\jui;
+use frontend\assets\AppAsset;
+
+AppAsset::register($this);
 
 $student = new Student();
 ?>
 
 <html>
 <body>
-	
-	
-	<!--
-		<?php //$form = ActiveForm::begin(); ?>
-
-    <?= //$form->field($model, 'mssv') ?>
-
-    <div class="form-group">
-        <?= //Html::submitButton('Submit', ['class' => 'btn btn-primary']) ?>
-    </div>
-	
-	<?= //Alert::widget() ?>
-	-->
-	
+		<div id="dialog" style = "display:none;"></div>
 		<div class="container-fluid">
 			<div id = "find-table" class ="row justify-content-center">
 				<div class = "col-sm-6 find_mssv">
 					<div style = 'font-size:18px; background-color:#007bff' class = "full-screen font-weight-bold text-dark text-center"><span class="align-middle">TRA CỨU THÔNG TIN TÌNH TRẠNG XÉT TỐT NGHIỆP</span></div>
 					<div class="row justify-content-center"><span style = "color: red; font-size: 15px; margin-bottom:5px;" class="badge badge-warning">Vui lòng chọn tra cứu bằng mã số hoặc họ tên sinh viên</span></div>
 					
-					<?= Html::beginForm() ?>
+					<?php $form = ActiveForm::begin([
+						'id' => 'login-form',
+					]) ?>
 					
 						<div class="form-group">
 							<label class="badge badge-info" for="" style="font-size:15px;">Mã số sinh viên</label>
 							<div class="input-group">
-								<?= Html::input('text', 'mssv','', ['class' => 'form-control', 'id' => 'mssv']) ?>
+								<?= $form->field($student, 'mssv')->textInput(['class' => 'form-control', 'id' => 'mssv', 'name' => 'mssv'])->label(false); ?>
 							</div>
 						</div>
 						
 						<div class="form-group">
 							<label class="badge badge-info" for="" style="font-size:15px;">Họ và tên</label>
 							<div class="input-group">
-								<?= Html::input('text', 'username','', ['class' => 'form-control', 'id' => 'username']) ?>
+								<?= $form->field($student, 'ho')->textInput(['class' => 'form-control', 'id' => 'username', 'name' => 'username'])->label(false); ?>
 							</div>
 						</div>
 						
@@ -66,15 +59,13 @@ $student = new Student();
 						</div>
 						
 						<label style="font-size:15px;" class="badge badge-info"> Mã xác nhận: </label>
-						<?php
-							echo Captcha::widget([
-								'name' => 'captcha',
-							]);
-						?>
+						
+						 <?= $form->field($student, 'captcha')
+							->widget(Captcha::className(), ['captchaAction' => ['/site/captcha']]) ?>
 						
 						<?= Html::submitButton('Submit', ['class' => 'btn btn-primary btn-lg btn-block']) ?>
 					
-					<?= Html::endForm() ?>
+					<?php ActiveForm::end() ?>
 					
 				</div>
 			</div>
@@ -98,7 +89,8 @@ $student = new Student();
 						<td class='align-middle'><?php echo $student['ho']; ?></td>
 						<td class='align-middle'><?php echo $student['ten']; ?></td>
 						
-						<td><a class="btn btn-outline-primary" id = "detail" href="#">Xem chi tiết</a></td>
+						
+						<td><a class="btn btn-outline-primary" id = "detail" href="javascript:chiTietSV('<?php echo $student['mssv']; ?>');">Xem chi tiết</a></td>
 					</tr>
 					<?php } ?>
 				</tbody>
