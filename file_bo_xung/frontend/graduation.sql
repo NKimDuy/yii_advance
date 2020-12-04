@@ -242,8 +242,10 @@ CREATE TABLE IF NOT EXISTS `tb_hk_tot_nghiep` (
   PRIMARY KEY (`ma_hk`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table graduationdb.tb_hk_tot_nghiep: ~0 rows (approximately)
+-- Dumping data for table graduationdb.tb_hk_tot_nghiep: ~1 rows (approximately)
 /*!40000 ALTER TABLE `tb_hk_tot_nghiep` DISABLE KEYS */;
+INSERT INTO `tb_hk_tot_nghiep` (`ma_hk`, `chi_tiet_hk`) VALUES
+	('tn_193', 'Năm 2020 - đợt 1');
 /*!40000 ALTER TABLE `tb_hk_tot_nghiep` ENABLE KEYS */;
 
 -- Dumping structure for table graduationdb.tb_ho_so_sv
@@ -271,8 +273,11 @@ CREATE TABLE IF NOT EXISTS `tb_ho_so_sv` (
   CONSTRAINT `tb_ho_so_sv_ibfk_7` FOREIGN KEY (`ma_htdt`) REFERENCES `tb_ht_dao_tao` (`ma_hinh_thuc`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table graduationdb.tb_ho_so_sv: ~0 rows (approximately)
+-- Dumping data for table graduationdb.tb_ho_so_sv: ~2 rows (approximately)
 /*!40000 ALTER TABLE `tb_ho_so_sv` DISABLE KEYS */;
+INSERT INTO `tb_ho_so_sv` (`mssv`, `ma_dan_toc`, `ma_noi_sinh`, `ma_quoc_tich`, `ma_dvlk`, `ma_nganh`, `ma_htdt`) VALUES
+	('32163009VT2', '1', '1', 'VN', 'VT', '32', '2'),
+	('32163013VT2', '1', '1', 'VN', 'VT', '32', '2');
 /*!40000 ALTER TABLE `tb_ho_so_sv` ENABLE KEYS */;
 
 -- Dumping structure for table graduationdb.tb_ht_dao_tao
@@ -305,15 +310,18 @@ INSERT INTO `tb_ht_dao_tao` (`ma_hinh_thuc`, `ten_hinh_thuc_ex`, `ten_hinh_thuc_
 -- Dumping structure for table graduationdb.tb_ket_qua
 CREATE TABLE IF NOT EXISTS `tb_ket_qua` (
   `mssv` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL COMMENT 'mã số sinh viên',
-  `diem` int DEFAULT NULL COMMENT 'điểm',
+  `diem` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'điểm',
   `xep_loai` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'xếp loại',
   `dk_tn` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL COMMENT 'điều kiện tốt nghiệp',
   PRIMARY KEY (`mssv`),
   CONSTRAINT `tb_ket_qua_ibfk_1` FOREIGN KEY (`mssv`) REFERENCES `tb_sinh_vien` (`mssv`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table graduationdb.tb_ket_qua: ~0 rows (approximately)
+-- Dumping data for table graduationdb.tb_ket_qua: ~2 rows (approximately)
 /*!40000 ALTER TABLE `tb_ket_qua` DISABLE KEYS */;
+INSERT INTO `tb_ket_qua` (`mssv`, `diem`, `xep_loai`, `dk_tn`) VALUES
+	('32163009VT2', '2.45', 'Trung bình', 'Đủ điều kiện'),
+	('32163013VT2', '2.35', 'Trung bình', 'Đủ điều kiện');
 /*!40000 ALTER TABLE `tb_ket_qua` ENABLE KEYS */;
 
 -- Dumping structure for table graduationdb.tb_nganh
@@ -429,8 +437,8 @@ CREATE TABLE IF NOT EXISTS `tb_sinh_vien` (
 -- Dumping data for table graduationdb.tb_sinh_vien: ~2 rows (approximately)
 /*!40000 ALTER TABLE `tb_sinh_vien` DISABLE KEYS */;
 INSERT INTO `tb_sinh_vien` (`mssv`, `ho`, `ho_kd`, `ten`, `ten_kd`, `ngay_sinh`, `gioi_tinh`) VALUES
-	('1651010030', 'nguyễn kim', 'nguyen kim', 'duy', 'duy', '1996-02-28', 1),
-	('1651010163', 'Phạm Minh', 'Pham Minh', 'Viễn', 'vien', '1996-06-06', 1);
+	('32163009VT2', 'Trần Hữu', 'Tran Huu', 'Thọ', 'Tho', '1989-01-05', 1),
+	('32163013VT2', 'Nguyễn Huỳnh Đăng', 'Nguyen Huynh Dang', 'Vương', 'Vuong', '1989-01-05', 1);
 /*!40000 ALTER TABLE `tb_sinh_vien` ENABLE KEYS */;
 
 -- Dumping structure for table graduationdb.tb_sv_hk
@@ -443,8 +451,11 @@ CREATE TABLE IF NOT EXISTS `tb_sv_hk` (
   CONSTRAINT `tb_sv_hk_ibfk_2` FOREIGN KEY (`ma_hk`) REFERENCES `tb_hk_tot_nghiep` (`ma_hk`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table graduationdb.tb_sv_hk: ~0 rows (approximately)
+-- Dumping data for table graduationdb.tb_sv_hk: ~2 rows (approximately)
 /*!40000 ALTER TABLE `tb_sv_hk` DISABLE KEYS */;
+INSERT INTO `tb_sv_hk` (`mssv`, `ma_hk`) VALUES
+	('32163009VT2', 'tn_193'),
+	('32163013VT2', 'tn_193');
 /*!40000 ALTER TABLE `tb_sv_hk` ENABLE KEYS */;
 
 -- Dumping structure for table graduationdb.tb_tinh_thanh
@@ -455,8 +466,11 @@ CREATE TABLE IF NOT EXISTS `tb_tinh_thanh` (
   PRIMARY KEY (`ma_tinh_thanh`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table graduationdb.tb_tinh_thanh: ~0 rows (approximately)
+-- Dumping data for table graduationdb.tb_tinh_thanh: ~2 rows (approximately)
 /*!40000 ALTER TABLE `tb_tinh_thanh` DISABLE KEYS */;
+INSERT INTO `tb_tinh_thanh` (`ma_tinh_thanh`, `ten_tinh_thanh`, `ten_tinh_thanh_at`) VALUES
+	('1', 'Bình Định', 'Bình Định'),
+	('2', 'Phú Yên', 'Phú Yên');
 /*!40000 ALTER TABLE `tb_tinh_thanh` ENABLE KEYS */;
 
 -- Dumping structure for table graduationdb.tb_tinh_trang_sv
@@ -471,8 +485,11 @@ CREATE TABLE IF NOT EXISTS `tb_tinh_trang_sv` (
   CONSTRAINT `tb_tinh_trang_sv_ibfk_1` FOREIGN KEY (`mssv`) REFERENCES `tb_sinh_vien` (`mssv`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
--- Dumping data for table graduationdb.tb_tinh_trang_sv: ~1 rows (approximately)
+-- Dumping data for table graduationdb.tb_tinh_trang_sv: ~2 rows (approximately)
 /*!40000 ALTER TABLE `tb_tinh_trang_sv` DISABLE KEYS */;
+INSERT INTO `tb_tinh_trang_sv` (`mssv`, `giay_ks`, `bang_cap`, `hinh`, `phieu_dkxcb`, `ct_dt`) VALUES
+	('32163009VT2', 'HỢP LỆ', '2012 - ĐẠI HỌC', 'HỢP LỆ', 'HỢP LỆ', 'HOÀN THÀNH'),
+	('32163013VT2', 'HỢP LỆ', '2013 - ĐẠI HỌC', 'HỢP LỆ', 'HỢP LỆ', 'HOÀN THÀNH');
 /*!40000 ALTER TABLE `tb_tinh_trang_sv` ENABLE KEYS */;
 
 -- Dumping structure for table graduationdb.tb_upload

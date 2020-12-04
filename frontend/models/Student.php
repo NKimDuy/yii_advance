@@ -8,6 +8,9 @@ use frontend\models\Student;
 class Student extends ActiveRecord
 {
 	public $captcha;
+	public $username;
+	public $semester;
+	
 	const SCENARIO_FIND = 'find';
 	
 	public static function tableName()
@@ -25,7 +28,7 @@ class Student extends ActiveRecord
 	public function rules()
 	{
 		return [
-			[['mssv', 'captcha'], 'required', 'on' => self::SCENARIO_FIND],
+			[['mssv', 'username', 'captcha', 'semester'], 'required', 'on' => self::SCENARIO_FIND],
 			['captcha', 'captcha'],
 		];
 	}

@@ -1,14 +1,17 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\widgets\ActiveField;
 use frontend\models\Student;
+use frontend\models\GraduationSemester;
 use yii\captcha\Captcha;
 use yii\jui;
 use frontend\assets\AppAsset;
 
 AppAsset::register($this);
 
-$student = new Student();
+$student = new Student(); // tạo lớp lấy các trường tương ứng để tạo các input nhập liệu
+$graSemester = new GraduationSemester();
 ?>
 
 <html>
@@ -34,15 +37,18 @@ $student = new Student();
 						<div class="form-group">
 							<label class="badge badge-info" for="" style="font-size:15px;">Họ và tên</label>
 							<div class="input-group">
-								<?= $form->field($student, 'ho')->textInput(['class' => 'form-control', 'id' => 'username', 'name' => 'username'])->label(false); ?>
+								<?= $form->field($student, 'username')->textInput(['class' => 'form-control', 'id' => 'username', 'name' => 'username'])->label(false); ?>
 							</div>
 						</div>
 						
 						<div class="form-group">
 							<label for="">Đợt tốt nghiệp :</label>
+							
+							<?= $form->field($student, 'semester')->dropdownList([$allGraduationSemester],
+															['prompt'=>'Vui lòng chọn học kì tốt nghiệp', 'name' => 'semesterlist'])->label(false); ?>
 						</div>
 						
-						<?= Html::checkbox('agree', false, ['id' => "seeHistory", 'label' => 'Tìm kiếm không cần chọn đợt']) ?>
+						<?= Html::checkbox('agree', false, ['id' => "seeHistory", 'label' => 'Tìm kiếm không cần chọn đợt']); ?>
 						
 						<div>
 						Nếu không tìm thấy thông tin tình trạng xét tốt nghiệp của sinh viên. Xin vui lòng liên hệ:
@@ -81,16 +87,16 @@ $student = new Student();
 				</thead>
 				<tbody>
 					<?php
-						foreach($students as $student)
+						foreach($allStudentInSemester as $oneStudent)
 						{
 					?>
 					<tr>
-						<td class='align-middle'><?php echo $student['mssv']; ?></td>
-						<td class='align-middle'><?php echo $student['ho']; ?></td>
-						<td class='align-middle'><?php echo $student['ten']; ?></td>
+						<td class='align-middle'><?php echo $oneStudent['mssv']; ?></td>
+						<td class='align-middle'><?php echo $oneStudent['ho']; ?></td>
+						<td class='align-middle'><?php echo $oneStudent['ten']; ?></td>
 						
 						
-						<td><a class="btn btn-outline-primary" id = "detail" href="javascript:chiTietSV('<?php echo $student['mssv']; ?>');">Xem chi tiết</a></td>
+						<td><a class="btn btn-outline-primary" id = "detail" href="javascript:chiTietSV('<?php echo $oneStudent['mssv']; ?>');">Xem chi tiết</a></td>
 					</tr>
 					<?php } ?>
 				</tbody>
